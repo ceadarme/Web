@@ -16,11 +16,6 @@ namespace Web.Interfaces
 
     }
 
-    //protected void Button1_Click(object sender, EventArgs e)
-    //{
-
-    //}
-
     protected void btnOK_Click(object sender, EventArgs e)
     {
       try

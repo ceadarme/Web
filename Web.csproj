@@ -67,18 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Interfaces\frmEncriptacion3DES.aspx" />
     <Content Include="Interfaces\frmEncriptacionMD5.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\frmEncriptacion3DES.aspx.cs">
-      <DependentUpon>frmEncriptacion3DES.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Interfaces\frmEncriptacion3DES.aspx.designer.cs">
-      <DependentUpon>frmEncriptacion3DES.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Interfaces\frmEncriptacionMD5.aspx.cs">
       <DependentUpon>frmEncriptacionMD5.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

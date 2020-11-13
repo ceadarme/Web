@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
 
         <asp:TextBox ID="txtTexto" runat="server" OnTextChanged="txtTexto_TextChanged"></asp:TextBox>
-        <asp:Button ID="btnOk" runat="server" OnClick="btnOk_Click" style="margin-bottom: 1px; height: 26px;" Text="Encriptar" />
+        <asp:Button ID="btnOk" runat="server" OnClick="btnOK_Click" style="margin-bottom: 1px; height: 26px;" Text="Encriptar" />
         <br />
         <asp:Label ID="lblTextoEncriptado" runat="server" Enabled="False"></asp:Label>
     </form>
