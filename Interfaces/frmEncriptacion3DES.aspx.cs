@@ -28,7 +28,7 @@ namespace Web.Interfaces
         string stKey = ConfigurationManager.AppSettings["stKey"];
 
         lblTextoEncriptado.Text = obclsEncriptacion.stEncriptar3DES(txtTexto.Text, stKey);
-        lblTextoDesencriptado.Text = obclsEncriptacion.StDesencriptar3DES(lblTextoEncriptado.Text, stKey);
+        lblTextoDesencriptado.Text = obclsEncriptacion.stEncriptar3DES(lblTextoEncriptado.Text, stKey);
 
       }
       catch (Exception ex)
